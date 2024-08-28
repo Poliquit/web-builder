@@ -1,0 +1,34 @@
+section {
+    min-height: 100vh;
+}
+
+.growth-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    margin: 20px 0 0 0;
+}
+
+.growth-section > div {
+    margin: 5rem 0 0 0;
+}
+
+.growth-section > .item {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    gap: 2rem;
+}
+
+.growth-section > .item > p {
+    max-width: 100px;
+    line-height: 1.5rem;
+    word-spacing: 5px;
+    color: #757575;
+}
+
+.growth-section img {
+    width: 50px;
+    height: 50px;
+}
+

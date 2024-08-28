@@ -1,3 +1,7 @@
+.hero {
+    min-height: 100vh;
+}
+
 .header-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -9,7 +13,24 @@
 }
 
 .header-container  h1 {
-    font-size: 56px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header-container span {
+    color: #0682b8;
+    font-size: 76px;
+}
+
+.header-container button {
+    padding: 20px 25px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #000507;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 .header-container  p {
@@ -17,6 +38,7 @@
     letter-spacing: 1.5px;
     line-height: 1.5rem;
     word-spacing: 10px;
+    margin: 0 0 50px;
 }
 
 .hero-content {
