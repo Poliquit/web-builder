@@ -1,0 +1,30 @@
+.header-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    gap: 10px;
+}
+
+.header-container > div {
+}
+
+.header-container  h1 {
+    font-size: 56px;
+}
+
+.header-container  p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+    word-spacing: 10px;
+}
+
+.hero-content {
+    margin: 0 50px 0 100px;
+}
+
+.header-container img {
+    width: 500px;
+    height: 500px;
+    margin: 0 50px 0 0;
+}
